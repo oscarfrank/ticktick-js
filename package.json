@@ -1,0 +1,25 @@
+{
+    "name": "ticktick-js",
+    "version": "1.0.0",
+    "description": "A JavaScript library for interacting with the TickTick API",
+    "main": "ticktick.js",
+    "type": "module",
+    "scripts": {
+      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "keywords": [
+      "ticktick",
+      "api",
+      "tasks",
+      "productivity"
+    ],
+    "author": "Oscar Frank",
+    "license": "MIT",
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "node-fetch": "^3.2.0"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6"
+    }
+  }
